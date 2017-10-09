@@ -9,7 +9,7 @@ $conexion= mysqli_connect("localhost","root","marina","base1")or
 die("Problemas con la conexion a la base de datos");
 
 $registro= mysqli_query($conexion, "select nombre_curso,codigo from cursos")or
-     die("probleas en el select: ".mysqli_error($conexion));
+     die("problemas en el select: ".mysqli_error($conexion));
 
 while ($reg= mysqli_fetch_array($registro))
 {

@@ -10,12 +10,15 @@
     Ingrese el nombre del curso:
     <input type="text" name="nombre_curso" size="40">
     <br>
-    Seleccione el curso:
-    <select name="codigo">
-        <option value="1">java</option>
-        <option value="2">javaScript</option>
-        <option value="3">c++</option>
-    </select>
+     Ingrese el codigo del curso 1, 2, 3:
+    <input type="text" name="codigo_curso" size="10">
+    <br>
+     Ingrese el nombre del alumno:
+     <input type="text" name="nombre_alumno" size="40">
+     <br>
+     Ingrese el codigo del alumno:
+     <input type="text" name="codigo_alumno" size="10">
+     <br>
     <br>
     <input type="submit" value="confirmar">
 </form>
