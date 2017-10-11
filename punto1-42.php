@@ -17,7 +17,8 @@
         <input type="text" name="nombre">
         <br>
         Cual es su queja?
-        <textarea name="queja" rows="20" cols="40">
+        <br>
+        <textarea name="queja" rows="10" cols="40">
         </textarea>
         <br>
         <input type="submit" value="Registrar">
