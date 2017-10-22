@@ -14,4 +14,4 @@ $acceso['Gabriela']="gabyy28";
 echo "La clave de seguridad de Diego es: ".$acceso['Diego'];
 echo "<br>";
 echo "La clave de seguridad de Agustina es: ".$acceso['Agustina'];
-
+?>

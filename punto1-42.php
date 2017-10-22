@@ -13,16 +13,17 @@
     
     <body>
         <form method="post" action="punto1-42pagina2.php">
-        Ingrese el nombre:
-        <input type="text" name="nombre">
-        <br>
-        Cual es su queja?
-        <br>
-        <textarea name="queja" rows="10" cols="40">
-        </textarea>
-        <br>
-        <input type="submit" value="Registrar">
+            Ingrese el nombre:
+            <input type="text" name="nombre">
+            <br>
+            Cual es su queja?
+            <br>
+            <textarea name="queja" rows="10" cols="40">
+            </textarea>
+            <br>
+            <input type="submit" value="Registrar">
         </form>
+        
         <a href="punto1-42pagina3.php"> Quejas del dia </a>
         
     </body>

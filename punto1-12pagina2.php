@@ -13,4 +13,5 @@ echo " Debera pagar impuestos ";
     echo " No debera pagar impuestos";    
 }
 
+?>
 

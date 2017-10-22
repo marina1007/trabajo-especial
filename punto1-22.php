@@ -7,12 +7,20 @@
  */
 
 ?>
-<form method="post" action="punto1-22pagina2.php">
-    Ingrese el nombre del alumno:
-    <input type="text" name="nombre_alumno">
-    <br>
+<html>
+    <head>
+        <title>Ejercicio 22</title>
+    </head>
+    <body>
+        <form method="post" action="punto1-22pagina2.php">
+            Ingrese el nombre del alumno:
+            <input type="text" name="nombre_alumno">
+            <br>
 
-    <input type="submit" value="buscar">
+            <input type="submit" value="buscar">
     
-</form>
+        </form>
+    </body>
+</html>
+
     

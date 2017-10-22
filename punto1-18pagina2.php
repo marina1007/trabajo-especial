@@ -10,5 +10,5 @@ function verificPass($contras1,$contras2) {
         echo "Las claves que ingreso son distintas";
 }
 verificPass($_REQUEST['contr1'], $_REQUEST['contr2']);
-
+?>
 

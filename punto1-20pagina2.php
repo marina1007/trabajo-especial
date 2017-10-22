@@ -16,3 +16,4 @@ $conexion=MYSQLI_connect("localhost","root","marina","base1") or
   echo "El curso fue dado de alta.";
 
 ?>
+

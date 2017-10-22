@@ -15,6 +15,7 @@
         $mysql=new mysqli("localhost","root","marina","base3");
         if ($mysql->connect_error)
             die ('Problemas con la conexion a la base de datos');
+        
         $mysql->query("insert into rubro(description) values ('$_REQUEST[description]')") or
         die($mysql->error);
         
@@ -24,4 +25,5 @@
         ?>
     </body>
 </html>
+
 

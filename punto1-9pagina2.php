@@ -14,3 +14,4 @@ if($_REQUEST['edad']>=18){
 } else {
     echo " es menor de edad";    
 }
+?>

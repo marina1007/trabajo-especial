@@ -21,3 +21,5 @@ echo " La variable de tipo String es: ";
 echo $nombre;
 echo " La variable de tipo boolean es: ";
 echo $exite;
+?>
+

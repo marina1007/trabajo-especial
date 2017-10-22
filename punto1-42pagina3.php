@@ -12,15 +12,15 @@
     </head>
     <body>
         <?php
-        $ar=fopen("datos.txt","r") or
-        die("No se logro abrir el archivo");
-while (!feof($ar)){
-    $linea= fgets($ar);
-    $lineasalto= nl2br($linea);
-    echo $lineasalto;
-}
-fclose($ar);
-?>
+            $ar=fopen("datos.txt","r") or
+            die("No se logro abrir el archivo");
+            while (!feof($ar)){
+                $linea= fgets($ar);
+                $lineasalto= nl2br($linea);
+                echo $lineasalto;
+            }
+            fclose($ar);
+        ?>
     </body>
     
 </html>

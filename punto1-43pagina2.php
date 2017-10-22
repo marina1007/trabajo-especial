@@ -9,4 +9,5 @@ if (checkdate($_REQUEST['dia'],$_REQUEST['mes'], $_REQUEST['anio']))
     echo "La fecha que ingreso es correcta ";
 else 
     echo "La fecha que ingreso no es correcta";
+?>
 

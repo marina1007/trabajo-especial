@@ -18,4 +18,5 @@ while ($reg= mysqli_fetch_array($registro))
     echo "<hr>";
 }
 mysqli_close($conexion);
+?>
         

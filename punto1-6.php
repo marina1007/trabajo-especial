@@ -11,3 +11,5 @@ $mes = 10;
 $anio = 1981;
 
 echo "Marina nacio el dia $dia del mes $mes en el anio $anio";
+?>
+

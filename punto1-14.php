@@ -16,4 +16,5 @@ $dia[6]="Domingo";
 echo "Primer elemento del vector $dia[0]";
 echo "<br>";
 echo "El ultimo elemento del vector $dia[6]";
+?>
 

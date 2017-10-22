@@ -16,3 +16,5 @@ if ($num==1){
 } else {
     echo " El numero es el tres ";   
 }
+?>
+

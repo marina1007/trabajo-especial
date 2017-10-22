@@ -35,4 +35,5 @@ while ($reg= mysqli_fetch_array($registros)){
     echo "No hay alumnos con ese nombre";
 }
 mysqli_close($conexion);
+?>
         

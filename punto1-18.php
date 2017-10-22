@@ -6,15 +6,23 @@
  * and open the template in the editor.
  */
 ?>
-<form method="post" action="punto1-18pagina2.php">
-    Ingrese el nombre de usuario:
-    <input type="text" name="usuario">
-    <br>
-    Ingrese la clave:
-    <input type="password" name="contr1">
-    <br>
-    <input type="password" name="contr2">
-    <br>
-    <input type="submit" name="Confirmar">
+<html>
+    <head>
+        <title>Ejercicio 18</title>
+    </head>
+    <body>
+        <form method="post" action="punto1-18pagina2.php">
+            Ingrese el nombre de usuario:
+            <input type="text" name="usuario">
+            <br>
+            Ingrese la clave:
+            <input type="password" name="contr1">
+            <br>
+            <input type="password" name="contr2">
+            <br>
+            <input type="submit" name="Confirmar">
     
-</form>
+        </form>
+    </body>
+</html>
+
